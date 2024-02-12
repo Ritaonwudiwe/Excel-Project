@@ -15,48 +15,53 @@
 
 ### Project Overview
 ---
-This project aims to provide insight into road accident occurrences in both rural and urban areas between 2007 and 2010. the operations performed include data cleaning, exploration, Consolidation, data analysis using Pivot tables, filtering, sorting, and visualization. to share my findings, I built a dashboard showing the primary KPIs, Secondary KPIs, and number of casualties. I included a filter panel and established a connection between it and the KPIs for stakeholders to access specific information. By analyzing the various aspects of the road accident data, we seek to identify trends, monitor KPIs, determine the root causes of these accidents, areas, and seasons with the most casualties, and make data-driven recommendations to stakeholders.
+This project aims to provide insight into road accident occurrences in the UK's rural and urban areas between 2000 and 2022. the operations performed include data cleaning, exploration, Consolidation, data analysis using Pivot tables, filtering, sorting, and visualization. to share my findings, I built a dashboard showing the primary KPIs, Secondary KPIs, and number of casualties. I included a filter and slicer panel and established a connection between it and the KPIs for stakeholders to access specific information. By analyzing the various aspects of the road accident data, we seek to identify trends, monitor KPIs, determine the root causes of these accidents, areas, vehicles, and seasons with the most casualties, and make data-driven recommendations to stakeholders.
 
 ### Data Source
-This dataset was open-source and downloaded from Kaggle. Find the link in the [References](#references) section
+This dataset was open-source and downloaded from Kaggle. Find the link in the [References](#references) section. It contains 33 Features/columns covering over 1.8 million records. Some of its features include Accidental / Longitude, Accident_Severity, Number_of_Vehicles, Number_of_Casualties, Light_Conditions, Weather_Conditions, Road_Surface_Conditions, Year.
 
 ### Tools
-- Excel - data cleaning, exploration, Consolidation, data analysis using Pivot tables, filtering, sorting, and visualization
+- Excel formulas and functions for data cleaning, exploration, Consolidation, data analysis using Pivot tables, filtering, sorting, and visualization
 
 ### Data Cleaning
 1. Loading and inspecting data
 2. Handling missing and inconsistent values in the data
-3. Converting the month in numbers to text
-4. Converting the days in numbers to text
+3. Extract the month using the TEXT function `TEXT(col, "mmm")`
+4. Extract the years using the TEXT function `TEXT(col, "yyyy")`
+
+![data_cleaning_1](https://github.com/Ritaonwudiwe/Excel-Project/assets/105303640/3e125dd4-8569-413c-aca0-771d49add637)
+
+![data_cleaning_2](https://github.com/Ritaonwudiwe/Excel-Project/assets/105303640/3102639d-6c56-45a3-98c1-c9d969299b0e)
 
 ### Exploratory Data Analysis
-EDA involves exploring the road accident data to answer key questions:
-- which area has the highest casualties?
-- what season has the most casualties?
-- what vehicle causes the most accidents?
+EDA involves exploring the UK road accident data to answer these key questions:
+
+ - what is the total number of casualties for the year 2021 and 2022
+ - What is the number of casualties on each day of the week?
+ - What is the importance of Light and Weather conditions in predicting accident severity?
+ - what is the percentage of the total casualties based on accident severities?
 
 ### Data Analysis
-```SQL
-SELECT * FROM table
-WHERE condition = 2;
-```
+
+![KPIs](https://github.com/Ritaonwudiwe/Excel-Project/assets/105303640/43e4020c-ae7d-45de-a78b-70a3eaba08b4)
 
 ### Results
 The analysis results are summarised as follows:
-- the rural area has more casualties than urban
-- cars tend to cause more accidents than
-- there are more accidents in dark places than well-lit areas
+- The urban area has more casualties than the rural area.
+- Cars caused more accidents than other vehicles
+- There are more accidents in well-lit places than in dark areas
+
+  ![Dashboard](https://github.com/Ritaonwudiwe/Excel-Project/assets/105303640/80e9ef05-6dda-4c12-a06c-91613fed8457)
+
 
 ### Recommendations
-Based on the analysis we recommend the following actions:
-- more light in dark areas
-- more road network in urban
+--
 
 ### Limitations
-None
+--
 
 ### References
-Kaggle Dataset [UK_Accidents.csv](https://www.kaggle.com/datasets/devansodariya/road-accident-united-kingdom-uk-dataset/data)
+Kaggle Dataset: [UK_Accidents.csv](https://www.kaggle.com/datasets/devansodariya/road-accident-united-kingdom-uk-dataset/data)
 
 ## 👍 *Thank you*
 
@@ -64,4 +69,3 @@ Kaggle Dataset [UK_Accidents.csv](https://www.kaggle.com/datasets/devansodariya/
 
 |pograming-languages|Database-language|
 |--------|---------|
-|python|SQL|
