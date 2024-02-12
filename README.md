@@ -1,6 +1,7 @@
 # Road Accident Analysis
 
 ## Table of contents
+
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools](#tools)
@@ -13,6 +14,7 @@
 - [References](#references)
 
 ### Project Overview
+---
 This project aims to provide insight into road accident occurrences in both rural and urban areas between 2007 and 2010. the operations performed include data cleaning, exploration, Consolidation, data analysis using Pivot tables, filtering, sorting, and visualization. to share my findings, I built a dashboard showing the primary KPIs, Secondary KPIs, and number of casualties. I included a filter panel and established a connection between it and the KPIs for stakeholders to access specific information. By analyzing the various aspects of the road accident data, we seek to identify trends, monitor KPIs, determine the root causes of these accidents, areas, and seasons with the most casualties, and make data-driven recommendations to stakeholders.
 
 ### Data Source
@@ -55,3 +57,11 @@ None
 
 ### References
 None
+
+## 👍 *Thank you*
+
+**`Sample Table`**
+
+|pograming-languages|Database-language|
+|--------|---------|
+|python|SQL|
