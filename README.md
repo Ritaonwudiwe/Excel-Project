@@ -64,8 +64,3 @@ The analysis results are summarised as follows:
 Kaggle Dataset: [UK_Accidents.csv](https://www.kaggle.com/datasets/devansodariya/road-accident-united-kingdom-uk-dataset/data)
 
 ## 👍 *Thank you*
-
-**`Sample Table`**
-
-|pograming-languages|Database-language|
-|--------|---------|
